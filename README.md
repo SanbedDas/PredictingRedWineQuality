@@ -1,4 +1,4 @@
-# PredictingWineQuality
+# PredictingRedWineQuality
 # Wine Quality Dataset for Machine Learning
 
 This dataset, known as the Wine Quality dataset, is a valuable resource for exploring machine learning techniques and conducting predictive analysis. The dataset was compiled by Paulo Cortez, Antonio Cerdeira, Fernando Almeida, Telmo Matos, and Jose Reis in 2009, with contributions from CVRVV (Vinho Verde Regional Wine Commission). It has been used to model wine preferences by mining data from physicochemical properties, resulting in a regression approach to predict wine quality based on sensory data.
