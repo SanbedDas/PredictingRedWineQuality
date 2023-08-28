@@ -30,17 +30,32 @@ The dataset comprises two distinct subsets, each representing red and white vari
 
 12. Quality (Score between 0 and 10)
 
-## Relevance and Usage
-
-The dataset presents interesting challenges, including handling ordered and imbalanced classes, as well as potentially correlated attributes. These aspects make it suitable for classification and regression tasks. Researchers have explored various data mining techniques, such as support vector machines, and metrics like MAD (Mean Absolute Deviation) and confusion matrices.
-
-As you delve into machine learning modeling, consider experimenting with feature selection methods, given the possible correlations among attributes.
-
 ## Accessing the Dataset
 
 For more details about the dataset, its creation, and its usage, refer to the original paper by Cortez et al. [here](https://archive.ics.uci.edu/ml/datasets/Wine+Quality).
+# Red Wine Quality Prediction Models
 
-Feel free to clone or download this repository to explore and apply machine learning techniques on this dataset. Let's work together to uncover insights from these physicochemical attributes and predict wine quality scores.
+I conducted a comprehensive analysis to predict red wine quality based on physicochemical attributes given in the dataset. Below are the results of the various models I developed:
+
+## Model Performance Summary
+
+| Model                           | R2 Score | Mean Squared Error |
+|---------------------------------|----------|--------------------|
+| Multiple Linear Regression      | 0.5151   | 0.5866             |
+| Support Vector Regression (SVR) | 0.7041   | 0.3579             |
+| Decision Tree                   | 0.5889   | 0.4973             |
+| Random Forest                   | 0.7600   | 0.2904             |
+
+## Insights and Observations
+
+- The **Support Vector Regression (SVR)** model achieved the highest R2 score of 0.7041, indicating its strong predictive capability. However, it's important to note that this model was computationally expensive.
+- The **Random Forest** model demonstrated impressive performance with an R2 score of 0.7600, outperforming other models and resulting in the lowest mean squared error (0.2904).
+- The **Multiple Linear Regression** and **Decision Tree** models also showcased reasonable performance, with R2 scores of 0.5151 and 0.5889, respectively.
+
+These results provide valuable insights into the predictive power of different models for red wine quality prediction.
+
+## Conclusion
+
+Through this project, I aimed to explore the relationships between physicochemical attributes and red wine quality. The results obtained from various models lay the foundation for optimizing predictions and enhancing our understanding of wine quality determinants.
 
 [Dataset Source](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
-
